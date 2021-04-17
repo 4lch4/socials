@@ -28,8 +28,8 @@ function App(props) {
             bgImageOpacity={1}
             description="I'm just some guy who likes making and fixing things that usually involve a keyboard and/or mouse."
             copyright="© 2021 4lch4 Industries"
-            logo="/img/4lch4.png"
-            logoInverted="/img/4lch4.png"
+            logo="/socials/img/4lch4.png"
+            logoInverted="/socials/img/4lch4.png"
             sticky={true}
           />
         </>
