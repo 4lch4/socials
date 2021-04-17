@@ -16,7 +16,7 @@ function App(props) {
           />
 
           <Switch>
-            <Route exact path="/socials" component={IndexPage} />
+            <Route exact path="/" component={IndexPage} />
 
             <Route component={NotFoundPage} />
           </Switch>
