@@ -51,7 +51,7 @@ function SocialsSection(props) {
               <a
                 href={social.href}
                 style={{ 'text-decoration': 'none' }}
-                target="_self"
+                target="_blanks"
               >
                 <Card>
                   <CardMedia
