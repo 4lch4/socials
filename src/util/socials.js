@@ -1,3 +1,16 @@
+/**
+ * @typedef {Object} Socials
+ * 
+ * @property {string} headerImage
+ * @property {string} avatarImage
+ * @property {string} name
+ * @property {string} username
+ * @property {string} href
+ */
+
+/**
+ * @type {Socials[]}
+ */
 const socials = [
   {
     headerImage: 'https://source.unsplash.com/pe_R74hldW4/1080x360',
@@ -39,7 +52,7 @@ const socials = [
     avatarImage: '/img/snapchat.png',
     name: 'Snapchat',
     username: 'dleaman',
-    href: 'https://facebook.com/4lch4'
+    href: 'https://snapchat.com/add/4lch4'
   },
   {
     headerImage: 'https://source.unsplash.com/2mjl2uvz9ic/1080x360',
@@ -53,15 +66,14 @@ const socials = [
     avatarImage: '/img/spotify.png',
     name: 'Spotify',
     username: '4lch4',
-    href:
-      'https://open.spotify.com/user/5m6kdwdcv30gwsffv6hpqtwi4?si=H2EgC4pGTfWhS00HXfe63A'
+    href: 'https://open.spotify.com/user/5m6kdwdcv30gwsffv6hpqtwi4?si=H2EgC4pGTfWhS00HXfe63A'
   },
   {
     headerImage: 'https://source.unsplash.com/CSs8aiN_LkI/1080x360',
     avatarImage: '/img/twitch.png',
     name: 'Twitch',
-    username: '4lch4z',
-    href: 'https://twitch.tv/4lch4z'
+    username: '4lch4_',
+    href: 'https://twitch.tv/4lch4_'
   },
   {
     headerImage: 'https://source.unsplash.com/CSs8aiN_LkI/1080x360',
@@ -69,6 +81,62 @@ const socials = [
     name: 'E-Mail',
     username: '4lch4z',
     href: 'mailto://hey@4lch4.email'
+  },
+  {
+    headerImage: 'https://source.unsplash.com/CSs8aiN_LkI/1080x360',
+    avatarImage: '/img/instagram.png',
+    name: 'Instagram',
+    username: '4lch4',
+    href: 'https://instagram.com/4lch4'
+  },
+  {
+    headerImage: 'https://source.unsplash.com/CSs8aiN_LkI/1080x360',
+    avatarImage: '/img/paypal.png',
+    name: 'Paypal',
+    username: '4lch4',
+    href: 'https://paypal.me/4lch4'
+  },
+  {
+    headerImage: 'https://source.unsplash.com/CSs8aiN_LkI/1080x360',
+    avatarImage: '/img/steam.png',
+    name: 'Steam',
+    username: '4lch4',
+    href: 'https://steamcommunity.com/id/4lch4'
+  },
+  {
+    headerImage: 'https://source.unsplash.com/CSs8aiN_LkI/1080x360',
+    avatarImage: '/img/ko-fi.png',
+    name: 'Ko-Fi',
+    username: '4lch4',
+    href: 'https://ko-fi.com/4lch4'
+  },
+  {
+    headerImage: 'https://source.unsplash.com/CSs8aiN_LkI/1080x360',
+    avatarImage: '/img/buymeacoffee.png',
+    name: 'BuyMeACoffee',
+    username: '4lch4',
+    href: 'https://www.buymeacoffee.com/4lch4'
+  },
+  {
+    headerImage: 'https://source.unsplash.com/CSs8aiN_LkI/1080x360',
+    avatarImage: '/img/tiktok.png',
+    name: 'TikTok',
+    username: '4lch4',
+    href: 'https://www.tiktok.com/@alchastuff'
+  },
+  {
+    headerImage: 'https://source.unsplash.com/CSs8aiN_LkI/1080x360',
+    avatarImage: '/img/ello.png',
+    name: 'Ello',
+    username: '4lch4',
+    href: 'https://ello.co/4lch4'
+  },
+  {
+    headerImage: 'https://source.unsplash.com/CSs8aiN_LkI/1080x360',
+    avatarImage: '/img/reddit.png',
+    name: 'Reddit',
+    username: '4lch4',
+    href: 'https://reddit.com/u/4lch4'
   }
 ]
 
