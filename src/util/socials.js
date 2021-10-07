@@ -1,16 +1,3 @@
-/**
- * @typedef {Object} Socials
- * 
- * @property {string} headerImage
- * @property {string} avatarImage
- * @property {string} name
- * @property {string} username
- * @property {string} href
- */
-
-/**
- * @type {Socials[]}
- */
 const socials = [
   {
     headerImage: 'https://source.unsplash.com/pe_R74hldW4/1080x360',
